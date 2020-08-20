@@ -40,7 +40,5 @@ KubeDNS is running at https://127.0.0.1:46157/api/v1/namespaces/kube-system/serv
 To further debug and diagnose cluster problems, use 'kubectl cluster-info dump'.
 ```
 
-[PENDING]
+Ready to shine! You are ready to deploy applications on kubernetes.
 
-## Changelog
-You can find the changelog [here](CHANGELOG.md)
