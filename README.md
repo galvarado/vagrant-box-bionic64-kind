@@ -15,22 +15,28 @@ The next tools are included in the box:
 ## Usage
 You can use the base box like any other base box. 
 
-Clone this repo:
+1. Prerequisites:
+
+Install [Vagrant](https://www.vagrantup.com/docs/installation) and [Virtualbox](https://www.vagrantup.com/docs/providers/virtualbox).
+
+
+
+2. Clone this repo:
 ```
 $ git clone git@github.com:galvarado/vagrant-box-bionic64-kind.git```
 ```
 
-Create the box:
+3. Create the box:
 ```
 $ vagrant up
 ```
 
-Login with ssh:
+4. Login with ssh:
 ```
 $ vagrant ssh
 ```
 
-Get the k8s details with kubectl:
+5. Get the k8s details with kubectl:
 
 ```
 $ kubectl cluster-info
