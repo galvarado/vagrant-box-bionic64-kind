@@ -1,4 +1,5 @@
 # vagrant-box-bionic64-kind
+A Vagrantbox ready  for running local Kubernetes clusters with [Kind](https://kind.sigs.k8s.io/) .
 
 ## Description
 This repository contains everything needed to build the bionic64-kind vagrant box. The box is build using Vagrant's packer tool. Currently only a box for the Virtualbox provider is built.
@@ -13,8 +14,6 @@ The next tools are included in the box:
 Built box can be found on [Vagrant Cloud](https://example.com)
 
 ## Usage
-
-## Using the base box
 You can use the base box like any other base box. 
 
 Create the box:
