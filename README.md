@@ -18,22 +18,24 @@ Built box can be found on [Vagrant Cloud](https://example.com)
 You can use the base box like any other base box. 
 
 Create the box:
-    $ vagrant up
+```
+$ vagrant up
+```
 
 Login sith ssh:
-    $ vagrant ssh
+```
+$ vagrant ssh
+```
 
 Get the k8s details with kubectl:
 
+```
 $ kubectl cluster-info
 Kubernetes master is running at https://127.0.0.1:46157
 KubeDNS is running at https://127.0.0.1:46157/api/v1/namespaces/kube-system/services/kube-dns:dns/proxy
 
 To further debug and diagnose cluster problems, use 'kubectl cluster-info dump'.
-
-
-
-Configure your `Vagrantfile` as you requiere: 
+```
 
 [PENDING]
 
