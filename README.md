@@ -18,6 +18,7 @@ You can use the base box like any other base box.
 Clone this repo:
 ```
 $ git clone git@github.com:galvarado/vagrant-box-bionic64-kind.git```
+```
 
 Create the box:
 ```
