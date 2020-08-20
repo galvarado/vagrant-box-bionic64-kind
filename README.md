@@ -1,1 +1,2 @@
-# vagrant-minikube
+# vagrant-kind
+minikube
