@@ -23,7 +23,7 @@ Install [Vagrant](https://www.vagrantup.com/docs/installation) and [Virtualbox](
 
 2. Clone this repo:
 ```
-$ git clone git@github.com:galvarado/vagrant-box-bionic64-kind.git```
+$ git clone git@github.com:galvarado/vagrant-box-bionic64-kind.git
 ```
 
 3. Create the box:
