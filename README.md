@@ -22,7 +22,7 @@ Create the box:
 $ vagrant up
 ```
 
-Login sith ssh:
+Login with ssh:
 ```
 $ vagrant ssh
 ```
