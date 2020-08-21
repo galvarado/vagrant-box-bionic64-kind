@@ -23,11 +23,4 @@ echo "**** End installing kubectl"
 curl -Lo ./kind https://kind.sigs.k8s.io/dl/v0.8.1/kind-linux-amd64
 chmod +x ./kind
 mv ./kind /usr/local/bin/kind
-
-# Initialize kind
-kind create cluster --name myk8s 
-kind get clusters
-mkdir .kube
-kind get kubeconfig --name "myk8s" > .kube/config
-
-echo "**** Cluster started :) Ready to shine!"
+echo "**** End installing kind"
